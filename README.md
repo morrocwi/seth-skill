@@ -43,6 +43,15 @@ What the skill enforces, mechanically:
 - **Typed outputs.** Every quantity is a `QuantityResult` (equation id, identification status,
   tier, support bundles, assumptions). A bare number is not a complete result.
 
+And it meets entrepreneurs where they are: casual questions ("should I take this deal?",
+"how do I start a social enterprise?", "how do I price the subsidized line?") get
+**advisory mode** — plain-language options, trade-offs, and next steps with MOCA as the silent
+lens, the register matched to the asker (everyday words for a first-time founder, the technical
+vocabulary for an accountant or funder, answers in the user's own language) — while supplied
+numbers with a request to calculate, or an explicit "run the framework", get the full typed
+diagnostic — a high-stakes question with no data stays advisory, with an explicit offer to
+upgrade.
+
 ## Install
 
 As a Claude Code plugin:
@@ -62,6 +71,7 @@ Or manually: copy `plugins/seth/skills/seth/` into your agent's skills directory
 | `plugins/seth/skills/seth/SKILL.md` | The skill: non-negotiable rules, the one-epoch diagnostic workflow, failure codes, numerical-method selection |
 | `.../references/equations.md` | Full equation inventory (E-READOUT … E-FALSIFY, eqs. 1–85) with the dynamics, governance, inference, and falsification layers |
 | `.../references/contract.md` | The AI calculation contract: `QuantityResult` schema, minimum-input Table 1, failure-code definitions, Algorithms 1–4 pseudocode, per-locus binding defaults |
+| `.../references/thai-se-law/` | Thai SE law library: the พ.ร.บ.ส่งเสริมวิสาหกิจเพื่อสังคม พ.ศ. 2562 + 39 subordinate instruments as primary-source PDFs, with a verified machine-readable knowledge graph (`kg.json`), human catalog (`INDEX.md`), and relationship map (`KG.md`). Snapshot as gazetted (2562–2567) — every legal answer must be re-verified against the current version (ราชกิจจานุเบกษา / OSEP) before acting |
 | `paper/` | The MOCA technical preprint (PDF, CC BY 4.0) |
 | `examples/` | Two full worked diagnostics produced by an agent running this skill (a coffee shop and a two-entity bakery) |
 | `benchmarks/` | Honest finite-diagnostic comparison of agent-with-skill vs. agent-without-skill on those two cases |
