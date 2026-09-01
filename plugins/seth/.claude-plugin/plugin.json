@@ -1,0 +1,8 @@
+{
+  "name": "seth",
+  "description": "SETH (Social-Enterprise Technical Handler) — executes MOCA, the Mission Opportunity–Constraint Architecture (Lahtee 2026). Loads before analyzing, diagnosing, or simulating any social enterprise: viability gates, mission drift vs. authorized hardship rules, the four benchmarks and the O_M − C_M identity, binding architecture per mission locus, obligation-stock dynamics, readout-bounded impact-claim audits, and prediction-freeze falsification. Missing is NI, never zero.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Yaoharee Lahtee"
+  }
+}

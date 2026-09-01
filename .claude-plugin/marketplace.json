@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yaoharee-lahtee-seth",
+  "description": "SETH (Social-Enterprise Technical Handler) — an AI skill that executes MOCA, the Mission Opportunity–Constraint Architecture: a readout-bounded, falsifiable calculation framework for social-enterprise management. Developed by Yaoharee Lahtee.",
+  "owner": {
+    "name": "Yaoharee Lahtee"
+  },
+  "plugins": [
+    {
+      "name": "seth",
+      "description": "Load before analyzing, diagnosing, or simulating any social enterprise or hybrid mission-driven organization: viability, mission drift, mission-attributable cost/opportunity (the four benchmarks and O_M − C_M identity), trust/liquidity/obligation dynamics, impact-claim support audits, and prediction-freeze falsification. Enforces the MOCA AI calculation contract: every quantity typed with equation id, identification status, tier, and support bundles; missing is NI, never zero; model counterfactuals are never relabeled as observed facts.",
+      "author": {
+        "name": "Yaoharee Lahtee"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/morrocwi/seth-skill.git",
+        "path": "plugins/seth",
+        "ref": "v0.1.0"
+      }
+    }
+  ]
+}
