@@ -60,8 +60,9 @@ Follow this order; each step's inputs must satisfy the minimum contract in
    collapse entities when control/resource edges are load-bearing), mission-enabled
    opportunity set, obligation stock, binding architecture.
 3. **Locate mission loci** from the question-relative binding vector `b_{Q,t}` (Allocation,
-   Labour, Sourcing, Product, Payment, Customer-Finance, Transaction, Data, Capital,
-   Process/Lifecycle) — an audit coordinate, not a claim nature has exactly these dimensions.
+   Labour, Sourcing, Product/Offering, Payment/Customer-Finance, Transaction,
+   Data/Information, Capital/Governance, Process/Lifecycle) — an audit coordinate, not a
+   claim nature has exactly these dimensions.
 4. **Evaluate binding** per locus j: `q_j = ∏ b_{jr}` over the constitutive subset R*_j,
    `β̂_j = q_j a_j` (assurance a_j ∈ [0,1]; unknown assurance ⇒ NI). Any constitutive
    element failing ⇒ q_j = 0 (NONBINDING if mission declared but binding fails).
@@ -123,9 +124,10 @@ over Γ_k(r), never fill with means unless imputation is explicitly modeled.
 Distilled from the MOCA Technical Preprint v0.2 (13 pp., CC BY 4.0, Yaoharee Lahtee,
 ORCID 0009-0005-3861-0626), included in this repository under `paper/`. The paper's §16
 stress tests (a 45-enterprise development harness and a 40-case frozen-v5 battery coded
-30 PASS / 8 PRESSURE / 2 BOUNDARY / 0 structural FAIL) are **finite-diagnostic structural
-pressure testing, not accuracy estimates and not population validation** — never quote them
-as evidence that MOCA "works for all enterprises". The paper's companion machine-readable
+30 PASS / 8 PRESSURE / 2 BOUNDARY / 0 structural FAIL — a battery the paper itself notes was
+NOT disjoint from the earlier development cases, i.e. not held-out testing) are
+**finite-diagnostic structural pressure testing, not accuracy estimates and not population
+validation** — never quote them as evidence that MOCA "works for all enterprises". The paper's companion machine-readable
 source bundle (moca_ai_contract.json, moca_equations.json, moca_kg.jsonld, case ledgers) is
 referenced by the paper's Appendix D; where those files are available, prefer them over this
 skill's prose restatement.

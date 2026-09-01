@@ -44,6 +44,6 @@ cases.
 
 ## Reproducing
 
-The two test-case prompts are embedded verbatim in the example files' task descriptions; run
-them with and without `skills/seth/` available to your agent and grade against the assertions
-above.
+The two test-case prompts and the full assertion lists are in [`PROMPTS.md`](PROMPTS.md),
+verbatim. Run them with and without `plugins/seth/skills/seth/` available to your agent and
+grade the outputs against the assertions.

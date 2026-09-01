@@ -81,10 +81,11 @@ Or manually: copy `plugins/seth/skills/seth/` into your agent's skills directory
 
 Everything here follows the paper's own tier discipline:
 
-- The paper's stress tests (a 45-enterprise development harness; a 40-case frozen battery coded
-  30 PASS / 8 PRESSURE / 2 BOUNDARY / 0 structural FAIL) are **finite-diagnostic structural
-  pressure testing — not accuracy estimates, not population validation, not a ranking of the
-  organizations named**.
+- The paper's stress tests (a 45-enterprise development harness; a later 40-case battery coded
+  under a frozen v5 architecture — but, as the paper itself states, **not disjoint from the
+  earlier development cases**, so not held-out testing) are **finite-diagnostic structural
+  pressure testing — 30 PASS / 8 PRESSURE / 2 BOUNDARY / 0 structural FAIL is not an accuracy
+  estimate, not population validation, and not a ranking of the organizations named**.
 - The benchmark in [`benchmarks/`](benchmarks/README.md) is n = 2 cases, one run each, no
   variance data — it is a worked demonstration, not proof of effectiveness. Its most honest
   finding: a strong base model already refuses leaked predictions and unsupported impact claims

@@ -146,9 +146,11 @@ function SCORE_PREDICTION(prediction, outcome_evidence):
 ## Development-stage evidence status (§16 — quote honestly)
 
 45-enterprise retrospective harness forced major architecture additions; a later 40-case
-frozen-v5 battery (Grameen Shakti, KickStart, Revolution Foods, d.light, M-KOPA, TOMS,
-The Big Issue, BRAC/Aarong Dairy, Grameen Bank, …) coded 30 PASS / 8 PRESSURE / 2 BOUNDARY /
-0 direct structural FAIL. **These counts are finite-diagnostic — structural pressure testing,
+battery (Grameen Shakti, KickStart, Revolution Foods, d.light, M-KOPA, TOMS,
+The Big Issue, BRAC/Aarong Dairy, Grameen Bank, …), coded under a frozen v5 architecture but
+— per the paper itself — **not disjoint from the earlier development cases** (not held-out),
+coded 30 PASS / 8 PRESSURE / 2 BOUNDARY / 0 direct structural FAIL. **These counts are
+finite-diagnostic — structural pressure testing,
 not accuracy estimates, not population validation, not a ranking of those organizations.**
 A quasi-blind pilot froze directional prediction rules before outcome retrieval; among
 adjudicable predictions no observed disconfirmation, several outcomes NI — methodological
